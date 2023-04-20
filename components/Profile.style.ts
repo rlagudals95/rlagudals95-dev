@@ -59,8 +59,8 @@ export const ProfileImage = styled.div`
     width: 100px;
     height: 100px;
     position: absolute;
-    bottom: 10%;
-    left: -5%;
+    bottom: 0;
+    left: -10%;
     background-image: url('/home/ios-emoji-cloud.png');
     background-repeat: no-repeat;
     background-position: center;
