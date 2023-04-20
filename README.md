@@ -7,7 +7,7 @@ rlagudals95-Nextjs-Blog
 - **Framework:** [Next.js](https://nextjs.org/)
 - **Content:** [MDX](https://github.com/mdx-js/mdx), [Contentlayer](https://www.contentlayer.dev/)
 - **Styling:** [emotion](https://emotion.sh/docs/introduction) styled components
-- **Deploy:** [Vercel](https://vercel.com/thisyujeong)
+- **Deploy:** [Vercel](https://vercel.com/rlagudals95)
 - **VCS:** Git
 
 ## Running Locally

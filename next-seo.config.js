@@ -1,7 +1,7 @@
 import metadata from './data/metadata';
 
 const SEO = {
-  titleTemplate: '%s | thisyujeong.dev',
+  titleTemplate: '%s | rlagudals95.dev',
   defaultTitle: metadata.meta.title,
   description: metadata.meta.description,
   canonical: metadata.meta.url,
@@ -15,7 +15,7 @@ const SEO = {
         url: `${metadata.meta.url}/static/og-graph.png`,
         width: 850,
         height: 650,
-        alt: `thisyujeong.dev`,
+        alt: `rlagudals95.dev`,
       },
     ],
   },

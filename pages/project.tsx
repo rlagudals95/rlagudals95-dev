@@ -10,7 +10,7 @@ const project = ({ projects }: InferGetStaticPropsType<typeof getStaticProps>) =
   return (
     <Container>
       <NextSeo
-        title="Projects | thisyujeong"
+        title="Projects | rlagudals95"
         description="사이드 & 토이 프로젝트를 기록합니다."
         canonical={`${metadata.meta.url}/blog`}
         openGraph={{ url: `${metadata.meta.url}/blog` }}

@@ -33,7 +33,7 @@ const Footer = () => {
           Copyright © {new Date().getFullYear()} {metadata.author}
         </Copyright>
         <BlogInfo href={metadata.repo} rel="noreferrer">
-          thisyujeong.dev
+          rlagudals95.dev
         </BlogInfo>
       </FooterInner>
     </FooterContainer>

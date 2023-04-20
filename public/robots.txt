@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://thisyujeong.dev/sitemap.xml
+Sitemap: https://rlagudals95.dev/sitemap.xml

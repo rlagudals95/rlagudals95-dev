@@ -7,15 +7,15 @@ import { allBlogs, allNotes, allCPs } from '../.contentlayer/generated/index.mjs
 
 async function generate() {
   const feed = new RSS({
-    title: 'Thisyujeong',
-    site_url: 'https://thisyujeong.dev',
-    feed_url: 'https://thisyujeong.dev/feed.xml',
+    title: 'rlagudals95',
+    site_url: 'https://rlagudals95.dev',
+    feed_url: 'https://rlagudals95.dev/feed.xml',
   });
 
   allBlogs.map((post) => {
     feed.item({
       title: post.title,
-      url: `https://thisyujeong.dev/blog/${post.slug}`,
+      url: `https://rlagudals95.dev/blog/${post.slug}`,
       date: post.date,
       description: post.description,
     });
@@ -24,7 +24,7 @@ async function generate() {
   allNotes.map((note) => {
     feed.item({
       title: note.title,
-      url: `https://thisyujeong.dev/${note.url_path}`,
+      url: `https://rlagudals95.dev/${note.url_path}`,
       date: note.date,
     });
   });
@@ -32,7 +32,7 @@ async function generate() {
   allCPs.map((cp) => {
     feed.item({
       title: cp.title,
-      url: `https://thisyujeong.dev/${cp.url_path}`,
+      url: `https://rlagudals95.dev/${cp.url_path}`,
     });
   });
 

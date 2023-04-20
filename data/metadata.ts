@@ -1,8 +1,8 @@
 const metadata = {
-  repo: 'https://github.com/thisyujeong/thisyujeong-dev',
+  repo: 'https://github.com/rlagudals95/rlagudals95-dev',
   meta: {
-    url: 'https://thisyujeong.dev',
-    title: 'Thisyujeong | Frontend Developer',
+    url: 'https://rlagudals95.dev',
+    title: 'rlagudals95 | Frontend Developer',
     description: 'I experience it and if i like it, i continue.',
   },
   author: 'rlagudals95',
@@ -12,15 +12,15 @@ const metadata = {
     // description: 'I experience it and if i like it, i continue.',
     subDescription:
       '웹 퍼블리셔로 일하고 있습니다. 프론트엔드 개발자가 되기 위해 공부하고 있습니다.',
-    image: '/home/thisyujeong.png',
+    image: '/home/rlagudals95.png',
   },
   social: {
-    github: 'https://github.com/thisyujeong',
-    rss: 'https://thisyujeong.dev/feed.xml',
+    github: 'https://github.com/rlagudals95',
+    rss: 'https://rlagudals95.dev/feed.xml',
   },
   giscus: {
-    id: 'thisyujeong',
-    repo: 'thisyujeong-dev',
+    id: 'rlagudals95',
+    repo: 'rlagudals95-dev',
     category: 'General',
   },
   analytics: {
