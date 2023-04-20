@@ -1,6 +1,6 @@
-# thisyujeong.dev
+# rlagudals95.dev
 
-Thisyujeong-Nextjs-Blog
+rlagudals95-Nextjs-Blog
 
 ## Stack
 
