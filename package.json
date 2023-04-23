@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build ",
     "postbuild": "NODE_OPTIONS='--experimental-json-modules' node ./scripts/rss.mjs && node ./scripts/sitemap.mjs",
     "start": "next start",
     "build-prod": "run-s clean build export",
-    "deploy": "next build && aws s3 sync .next s3://rlagudals95-dev",
+    "deploy": "next build && next export && aws s3 sync out s3://rlagudals95.com",
     "export": "next export",
     "lint": "next lint"
   },

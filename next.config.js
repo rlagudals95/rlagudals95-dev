@@ -5,6 +5,10 @@ const nextConfig = withContentlayer({
   env: {
     BASE_URL: process.env.BASE_URL,
   },
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
 });
 
 module.exports = nextConfig;
