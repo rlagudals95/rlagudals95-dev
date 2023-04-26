@@ -1,6 +1,13 @@
 ## 간단한 롤백
 
-git revert -m <commit hash>
 
-예시
+# 특정 커밋만 롤백하고 싶을 때
+git revert -m 1 <commit hash>
+
 git revert -m 1 51045701ca2247dc657020d7774c028c4728adcf
+
+
+# 특정커밋으로 복귀하고 싶을 때
+get reset --hard <commit hash>
+
+git push -f origin head 
